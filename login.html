@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>	
+    <link rel="stylesheet" href="css/iconfont.css">
+    <style>
+    .new{font: 24px/50px "";color:#484848;border-left: 1px solid #D9D9D9;margin: 5px 0 0 25px;
+    padding-left: 26px;position: absolute;left: 370px;top: 10px;}
+    .links{position: absolute;left: 570px;top:36px;font: 12px/20px "";color: #f60;}
+    .main{margin-top: 20px;height: 444px;width: 100%;text-align: center;}
+    .main img{display: block;width: 422px;height: 422px;left: 35px;position: absolute;}
+    .cont{border: 1px solid #e1e1e1;width:400px;height: 422px;position: absolute;right:100px;}
+    .cont li.msg{font: 24px/30px "";color:darkblue;padding-top: 20px;}
+    .cont li{padding-top: 20px;}
+    .cont input{padding: 0 3px 0 5px;border: 1px solid #000;border-radius: 6px;width: 200px;height: 24px;}
+    .cont span{margin-right: 10px;}
+    .cont .btn{padding-top: 80px;}
+    #btn{width: 400px;font-size: 30px}
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="margin">
+            <div class="left">
+                <p><span class="iconfont icon-shouji"></span><a href="#">掌上新蛋</a></p>
+                <p><span class="iconfont icon-zhuyetuangou"></span><a href="#">企业团购</a></p>
+            </div>
+            <div class="right">
+                <span><a href="index.html">欢迎来新蛋购物！</a></span>
+                <ul>
+                    <li><a href="#">帮助中心</a></li>
+                    <li class="xiaLa"><a href="#">客户服务↓</a>
+                        <div class="inner" >
+                            <div class="info">
+                                <p style="color:#fe7b23;line-height:24px;text-align: center;font-size: 16px;"><strong>400-820-4400</strong></p>
+                                <strong style="display:block;text-align: center;font-size: 16px;">021-67072699</strong>
+                                <p style="text-align: center;">每天 9:00 - 18:00</p>
+                            </div>
+                            <div class="connect_way">
+                                <a title="在线咨询" target="_blank" style="float: left;clear: left; margin-right: 0.25rem;">
+                                    <span>在线咨询</span>
+                                </a> 
+                                <a target="_blank" href="" title="邮件我们" style="float: left;clear: right;"><span>邮件我们</span></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png"/></a>
+        </div>
+        <p class="new">新用户注册</p>
+        <a  class="links" href="register.html">没有账号去注册 >>></a>
+    </header>
+    <div class="main">
+        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554873078250&di=43117344c0089436825f11fd9a3ed358&imgtype=0&src=http%3A%2F%2Fimg.lanrentuku.com%2Fimg%2Fallimg%2F1308%2F13779567434582.jpg" />
+        <div class="cont">
+            <ul>
+                <li class="msg">登陆新蛋</li>
+                <li><span class="iconfont icon-touxiang"></span><input type="text" id="user" placeholder="用户名"></li>    
+                <li><span class="iconfont icon-ai-password"></span><input type="password " id="pass" placeholder="密码"></li>
+                <li class="btn"><strong id="msg"></strong><input type="button" value="登陆" id="btn"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+    <script src="libs/jquery.js"></script>
+    <script>
+        class Login{
+            constructor(){
+                this.url = "http://www.icodeilife.cn/ctrl/login.php";
+                this.init();
+            }
+            init(){
+                var that = this;
+                $("#btn").click(function () {
+                    that.load();
+                })
+            }
+            load(){
+                $.ajax({
+                    url:this.url,
+                    data:{
+                        user:$("#user").val(),
+                        pass:$("#pass").val(),
+                    },
+                    success:function(res){
+                        switch(res){
+                            case "0": $("strong").html("用户名错误");break;
+                            case "1": $("strong").html("重新登陆");break;
+                            default: 
+                                $("strong").html("成功");
+                                setTimeout(()=>{
+                                    location.href = "index.html"
+                                },2000);break;
+                        }
+                    }
+                })
+            }
+        }
+
+        new Login;
+    </script>
+</html>

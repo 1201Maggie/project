@@ -1,0 +1,22 @@
+#daohang{
+    height: 29px;
+    background: #f0f0f0;
+    float: left;
+    text-align: left;
+    display: inline-block;
+    line-height: 29px;
+    color: #333;
+    width: 100%;
+    position: absolute;
+    top: 151px;
+}
+#daohang .kuai{
+    left: 32px;    
+    position: absolute;
+}
+#daohang a{
+    float: left;
+}
+#daohang p{
+    float: left;
+}

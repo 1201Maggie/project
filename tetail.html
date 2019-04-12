@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tetail</title>
+    <link rel="stylesheet" type="text/css" href="css/public.css"/>	
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/tetail.css">
+    <style>
+        .menulist{display: none;position: absolute;left: 32px;}
+        .sbox{width: 400px;height: 300px;position: absolute;left: 32px;top: 230px;}
+        .sbox img{width: 400px;height: 300px;}
+        .sbox span{width: 100px;height: 100px;position: absolute;left: 0;top: 0;background: rgba(0,0,0,.3);/*z-index: 9999999;*/display: none;}
+        .sbox p{position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: 0;}
+        .bbox{width: 400px;height: 300px;position: absolute;left:400px;top: 237px;overflow: hidden;display: none;}
+        .bbox img{width: 1600px;height: 900px;position: absolute;}
+        .qita{width: 400px;height: 100px;margin-top: 10px;position: absolute;left: 50px;top: 535px;border: 1px solid beige;}
+        .qita img{width: 100px;height: 100px;display: block;float: left;}
+        .dingbu{position: fixed;right: 10px;bottom: 0;}
+        .dingbu img{width: 80px;height: 80px;cursor: pointer; }
+        .jieshao{position: absolute;right: 150px;top:230px;}
+        .jieshao h3{font-size: 20px;color: #000;font-weight: 900;}
+        .jieshao i{color: #ff1200;font-size: 14px;font-weight: 900;margin-top: 10px;}
+        .jieshao p{font-size: 12px;color: #484848;margin-top: 20px;display: block;}
+        .jieshao img{width: 66px;height: 66px;}
+        .jieshao s{color: #f7661f;font-size: 16px;}
+        .jieshao b{color: #f7661f;font-size: 36px;font-weight: 900;}
+        .jieshao .buy{background: #f0f0f0;width: 486px;height: 68px;margin-top: 20px;padding-top: 20px;}
+        .jieshao .buy .buzuo{float:left;color: #fff;background: #f60;font-size: 18px;width: 214px;height: 48px;text-align: center;line-height: 48px;margin-left: 20px;}
+        .jieshao .buy a{float:left;color: #fff;background: #1c249a;font-size: 18px;width: 214px;height: 48px;text-align: center;line-height: 48px;margin-left: 20px;display: block;}
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="margin">
+            <div class="left">
+                <p><span class="iconfont icon-shouji"></span><a href="#">掌上新蛋</a></p>
+                <p><span class="iconfont icon-zhuyetuangou"></span><a href="#">企业团购</a></p>
+            </div>
+            <div class="right">
+                <a href="register.html">注册</a>
+                <b> | </b>
+                <a href="login.html">登录</a>
+                <span>欢迎来新蛋购物！</span>
+                <ul>
+                    <li><a href="#">我的订单</a></li>
+                    <li><a href="#">我的新蛋</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li class="xiaLa"><a href="#">客户服务↓</a>
+                        <div class="inner" >
+                            <div class="info">
+                                <p style="color:#fe7b23;line-height:24px;text-align: center;font-size: 16px;"><strong>400-820-4400</strong></p>
+                                <strong style="display:block;text-align: center;font-size: 16px;">021-67072699</strong>
+                                <p style="text-align: center;">每天 9:00 - 18:00</p>
+                            </div>
+                            <div class="connect_way">
+                                <a title="在线咨询" target="_blank" style="float: left;clear: left; margin-right: 0.25rem;">
+                                    <span>在线咨询</span>
+                                </a> 
+                                <a target="_blank" href="" title="邮件我们" style="float: left;clear: right;"><span>邮件我们</span></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png"/></a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="请输入您要搜索的关键字" name="keyword" id="topSearch">
+            <input type="button" name="btn" id="btn" value="搜索" />
+            <p class="hot">
+                <a href=""> &nbsp;Bose </a><b> | </b>
+                <a href=""> iPhone XS </a><b> | </b>
+                <a href=""> mate20 </a><b> | </b>
+                <a href=""> Thinkpad </a><b> | </b>
+                <a href=""> 索尼电视机 </a>
+            </p>
+        </div>
+    </header>
+    <nav>
+        <div class="margin">
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="">限时抢购</a></li>
+                    <li><a href="">团团赚</a></li>
+                    <li><a href="">爱车配</a></li>
+                    <li><a href="">二手宝库</a></li>
+                </ul>
+            </div>
+            <div class="menu all">
+                <h3><a href="" id="dj">全部商品分类 </a></h3>
+            </div>
+            <div class="right">
+                <dl class="mycar">
+                    <dt class="opener">
+                        <a href="car.html">购物车 <strong> 0 </strong>件</a>
+                    </dt>
+                    <dd class="openerC">
+                        <!--鼠标滑过显示-->
+                        <div class="inner"><p>您还没有购买商品，快去挑选吧！</p></div>
+                    </dd>
+                </dl>
+                <dl class="favor">
+                    <dt class="poener">
+                        <a href="">收藏提醒</a>
+                    </dt>
+                    <dd class="openerC">
+                        <!--鼠标滑过效果-->
+                        <div class="inner"><p>请登陆后查看<a href="login.html">登陆</a></p></div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </nav>
+    <div class="f1all">
+        <div class="menulist" style="z-index: 1;">
+            <ul class="items">
+                <li class="item" style="height: 100%;">
+                    <dl style="height: 100%;padding-bottom:0.625rem">
+                        <dt>
+                            <div class="links" style="height: 100%;">
+                                    <span class="iconfont icon-shouji"></span>
+                                <h4>
+                                    <a href="">手机 </a>
+                                    <a href="">摄影 </a>
+                                    <a href="">苹果 </a>
+                                </h4>
+                                <div class="se_links" style="overflow: hidden; line-height: 1.687rem;width: 8rem;">
+                                    <a href="" class="clf60">智能手机 </a>
+                                    <a href="">微单 </a>
+                                    <a href="" class="clf60">数码包 </a>
+                                </div>
+                            </div>
+                        </dt>
+                        <dd style="top: -0rem;display: none;">
+                            <div class="ddwrap">
+                                <table cellpadding="0" cellspacing="0" class="ddwrap_brand_table">
+                                    <tbody>
+                                        <tr>
+                                            <th><label>手机</label></th>
+                                            <td>
+                                                <a href="" class="clf60">华为</a><b>|</b>
+                                                <a href="">小米</a><b>|</b>
+                                                <a href="">vivo</a><b>|</b>
+                                                <a href="">三星</a><b>|</b>
+                                                <a href="">美图</a><b>|</b>
+                                                <a href="">一加</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>苹果专区</label></th>
+                                            <td>
+                                                <a href="">iPhone</a>
+                                                <b>|</b>
+                                                <a href="">iPad</a><b>|</b>
+                                                <a href="">Watch</a>
+                                                <b>|</b>
+                                                <a href="">iMac</a><b>|</b>
+                                                <a href="" class="clf60">MacBook</a><b>|</b>
+                                                <a href="">苹果通用附件</a>
+                                                <b>|</b>
+                                                <a href="">苹果原装配件</a>
+                                                <b>|</b>
+                                                <a href="" class="clf60">Beats</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>手机配件</label></th>
+                                            <td>
+                                                <a href="">手机电池/充电器</a><b>|</b>
+                                                <a href="">手机数据线</a>
+                                                <b>|</b>
+                                                <a href="">车载手机配件</a>
+                                                <b>|</b>
+                                                <a href="">手机通用配件</a>
+                                                <b>|</b>
+                                                <a href="" class="clf60">移动电源</a><b>|</b>
+                                                <a href="">手机耳机</a>
+                                                <b>|</b>
+                                                <a href="">无线充电</a>
+                                                <b>|</b>
+                                                <a href="">手机镜头/拍摄器材</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>智能硬件</label></th>
+                                            <td>
+                                                <a href="" class="clf60">智能穿戴/设备</a><b>|</b>
+                                                <a href="">无人机</a>
+                                                <b>|</b>
+                                                <a href="">平衡车</a>
+                                                <b>|</b>
+                                                <a href="">游戏机</a>
+                                                <b>|</b>
+                                                <a href="">游戏周边</a>
+                                                <b>|</b>
+                                                <a href="">游戏手柄</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>数码摄影</label></th>
+                                            <td>
+                                                <a href="">单反相机</a>
+                                                <b>|</b>
+                                                <a href="" class="clf60">单电/微单</a><b>|</b>
+                                                <a href="">镜头</a>
+                                                <b>|</b>
+                                                <a href="">数码相机</a>
+                                                <b>|</b>
+                                                <a href="">数码摄像机</a>
+                                                <b>|</b>
+                                                <a href="">特殊相机</a>
+                                                <b>|</b>
+                                                <a href="">照片打印机</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>数码附件</label></th>
+                                            <td>
+                                                <a href="">镜头滤镜</a>
+                                                <b>|</b>
+                                                <a href="">数码贴膜/清洁</a>
+                                                <b>|</b>
+                                                <a href="">数码包</a>
+                                                <b>|</b>
+                                                <a href="">三脚架/云台</a>
+                                                <b>|</b>
+                                                <a href="">电池/充电器</a>
+                                                <b>|</b>
+                                                <a href="" class="clf60">存储卡</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="menudl_bot"></div>
+                            <div class="menudl_right"></div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="item" style="height: 100%;">
+                    <dl style="height: 100%;padding-bottom:0.625rem" class="">
+                        <dt>
+                            <div class="links" style="height: 100%;">
+                                    <span class="iconfont icon-diannao"></span>
+                                <h4>
+                                    <a href="">电脑 </a>
+                                    <a href="">外设 </a>
+                                    <a href="">办公 </a>
+                                </h4>
+                                <div class="se_links" style="overflow: hidden; line-height: 1.687rem;width: 8rem;">
+                                    <a href="">平板 </a>
+                                    <a href="" class="clf60">笔记本 </a>
+                                    <a href="" class="clf60">路由器 </a>
+                                    <a href="">耳机耳麦 </a>
+                                </div>
+                            </div>
+                        </dt>
+                        <dd style="top: -4.375rem;display: none; cursor: pointer;">
+                            <div class="ddwrap">
+                                <table cellpadding="0" cellspacing="0" class="ddwrap_brand_table">
+                                    <tbody>
+                                        <tr>
+                                            <th><label>电脑整机</label></th>
+                                            <td>
+                                                <a href="" class="clf60">笔记本</a><b>|</b>
+                                                <a href="">平板配件</a>
+                                                <b>|</b>
+                                                <a href="" class="clf60">平板</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>电脑配件</label></th>
+                                            <td>
+                                                <a href="">主板</a><b>|</b>
+                                                <a href="">硬盘</a><b>|</b>
+                                                <a href="" class="clf60">SSD固态硬盘</a><b>|</b>
+                                                <a href="">内存</a><b>|</b>
+                                                <a href="">机箱</a><b>|</b>
+                                                <a href="">电源</a><b>|</b>
+                                                <a href="" class="clf60">显示器</a><b>|</b>
+                                                <a href="">散热器</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>电脑外设</label></th>
+                                            <td>
+                                                <a href="">键盘</a><b>|</b>
+                                                <a href="" class="clf60">鼠标</a><b>|</b>
+                                                <a href="">U盘</a><b>|</b>
+                                                <a href="" class="clf60">移动硬盘</a><b>|</b>
+                                                <a href="" class="clf60">存储卡</a><b>|</b>
+                                                <a href="">读卡器</a>
+                                                <b>|</b>
+                                                <a href="">插座</a><b>|</b>
+                                                <a href="">鼠标垫/附件</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>网络设备</label></th>
+                                            <td>
+                                                <a href="" class="clf60">路由器</a><b>|</b>
+                                                <a href="">网卡</a><b>|</b>
+                                                <a href="">无线AP</a>
+                                                <b>|</b>
+                                                <a href="">交换机</a>
+                                                <b>|</b>
+                                                <a href="">网络配件</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>音频设备</label></th>
+                                            <td>
+                                                <a href="" class="clf60">耳机/耳麦</a><b>|</b>
+                                                <a href="" class="clf60">音箱</a><b>|</b>
+                                                <a href="">手机耳机</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>智能硬件</label></th>
+                                            <td>
+                                                <a href="" class="clf60">智能穿戴/设备</a><b>|</b>
+                                                <a href="">无人机</a>
+                                                <b>|</b>
+                                                <a href="">平衡车</a>
+                                                <b>|</b>
+                                                <a href="">游戏机</a>
+                                                <b>|</b>
+                                                <a href="">游戏周边</a>
+                                                <b>|</b>
+                                                <a href="">游戏手柄</a>
+                                                <b>|</b>
+                                                <a href="">智能穿戴</a>
+                                                <b>|</b>
+                                                <a href="">苹果配件</a>
+                                                <b>|</b>
+                                                <a href="">智能配饰</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>办公设备</label></th>
+                                            <td>
+                                                <a href="">喷墨一体机</a>
+                                                <b>|</b>
+                                                <a href="">激光一体机</a>
+                                                <b>|</b>
+                                                <a href="">激光打印机</a>
+                                                <b>|</b>
+                                                <a href="">喷墨打印机</a>
+                                                <b>|</b>
+                                                <a href="">针式打印机</a>
+                                                <b>|</b>
+                                                <a href="">投影机</a>
+                                                <b>|</b>
+                                                <a href="">传真机</a>
+                                                <b>|</b>
+                                                <a href="">扫描仪</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label>打印耗材</label></th>
+                                            <td>
+                                                <a href="">硒鼓/墨粉</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="menudl_bot"></div>
+                            <div class="menudl_right"></div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="item" style="height: 100%;">
+                    <dl style="height: 100%;padding-bottom: 0.625rem" >
+                        <dt>
+                            <div class="links" style="height: 100%;">
+                                    <span class="iconfont icon-dianqi"></span>
+                                    <h4><a href="#">家用电器 </a></h4>
+                                    <div class="se_links" style="overflow: hidden; line-height: 1.6875rem;width: 8rem;">
+                                        <a href="#">净化器 </a>
+                                        <a href="#">美容仪 </a><a href="" class="clf60">吸尘器</a>
+                                        <a href="#">微波炉 </a>
+                                    </div>
+                            </div>
+                            <div class="menudt_bot"></div>
+                        </dt>
+                        <dd style="top: -8.25rem;">
+                            <div class="ddwrap"></div>
+                            <div class="menudl_bot"></div>
+                            <div class="menudl_right"></div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="item last" style="cursor: pointer;">
+                    <dl style="height: 100%;padding-bottom: 0.625rem">
+                        <dt>
+                            <div class="links" style="height: 100%">
+                                <span class="iconfont icon-jiajubaihuo"></span>
+                                <h4><a href="#">生活百货</a></h4>
+                                <div class="se_links" style="overflow: hidden; line-height: 1.6875rem;width: 8rem;">
+                                    <a href="#" class="clf60">汽车用品 </a>
+                                    <a href="#">个护清洁 </a>
+                                    <a href="#">家居 </a>
+                                    <a href="#">厨用 </a>
+                                    <a href="#">钟表 </a>
+                                    <a href="#">礼品 </a>
+                                    <a href="#">服饰</a>
+                                    <a href="#">女装</a>
+                                    <a href="#">内衣</a>
+                                    <a href="#">珠宝</a>
+                                    <a href="#">母婴 </a>
+                                    <a href="#">玩具 </a>
+                                    <a href="#">食品 </a>
+                                    <a href="#">酒饮 </a>
+                                    <a href="#">鞋靴 </a>
+                                    <a href="#">箱包 </a>
+                                    <a href="#">运动 </a>
+                                    <a href="#">户外 </a>
+                                </div>
+                                <div class="menudl_bot"></div>
+                                <div class="menudl_right"></div>
+                            </div>
+                        </dt>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="daohang" class="clear">
+        <div class="kuai" class="clear">
+            <a href="index.html">首页 > </a>
+            <p> &nbsp;平板 ></p>
+            <p> &nbsp;产品编号: A6D-2VX-09S </p>
+        </div>
+    </div>
+    <div class="sbox">
+        <img src="https://c4.neweggimages.com.cn/neweggpic2/neg/P640/A6D-2VX-09S.jpg"/>
+        <span></span>
+        <p></p>
+    </div>
+    <div class="bbox">
+        <img src="https://c4.neweggimages.com.cn/neweggpic2/neg/P640/A6D-2VX-09S.jpg"/>
+    </div>
+    <div class="qita">
+        <img src="https://c4.neweggimages.com.cn/neweggpic2/neg/P640/A6D-2VX-09S.jpg" class="q1"/>
+        <img src="https://c3.neweggimages.com.cn/neweggpic2/neg/P640/A6D-2VX-09S_02.jpg" class="q2"/>
+        <img src="https://c4.neweggimages.com.cn/neweggpic2/neg/P640/A6D-2VX-09S_03.jpg" class="q3"/>
+        <img src="https://c4.neweggimages.com.cn/neweggpic2/neg/P640/A6D-2VX-09S_05.jpg" class="q4"/>
+    </div>
+    <div class="jieshao">
+        <h3>Kindle Oasis 电纸书阅读器 墨水屏 7英寸wifi香槟金32G 礼盒版</h3>
+        <i>欢购418!输入蛋券nb418,满800-30,5000-100,10000-300!</i>
+        <ul>
+            <li><p>品        牌： 亚马逊</p></li>
+            <li><p>产品型号：Oasis 电纸书阅读器 墨水屏 7英寸wifi香槟金32G 礼盒版</p></li>
+            <li><p>新  蛋  价：<s>¥ </s><b>3168.00</b> </p></li>
+            <li><p>商品支持：<img src="img/seven.jpg"> 支持无理由退</p></li>
+            <li><p style="font-weight:900;">版        本： Kindle Oasis 香槟金 32G 礼盒版</p></li>
+            <li><p>数        量：<input type="number" name="" id="num" value="1"></p></li>
+        </ul>
+        <div class="buy">
+            <div class="buzuo">立即购买</div>
+            <a href="car.html">加入购物车</a>
+        </div>
+    </div>
+
+    <div class="dingbu" id="totop"><img src="https://c2.neweggimages.com.cn/WebResources/2009/Default/Nest/images/ToTop_Normal.gif" ></div>
+    <!-- <div id="ad">
+        <ul class="te">
+            <li><a href="#"><img src="https://c1.neweggimages.com.cn/neweggpic2/Marketing/201701/webui/b3_v3.jpg" alt="团购"></a></li>
+            <li><a href="#"><img src="https://c1.neweggimages.com.cn/neweggpic2/Marketing/201701/webui/b4_v2.jpg" alt="联盟"></a></li>
+            <li><a href="#"><img src="https://c1.neweggimages.com.cn/neweggpic2/Marketing/201701/webui/b5_v2.jpg" alt="品牌"></a></li>
+        </ul>
+        <div class="service">
+            <dl class="help-fresh">
+                <dt>新手上路</dt>
+                <dd>
+                    <ul>
+                        <li><a href="#">怎样购物</a></li>
+                        <li><a href="#">支付常见问题</a></li>
+                        <li><a href="#">免运费政策 </a></li>
+                        <li><a href="#">发票须知</a></li>
+                        <li><a href="#">签收验货流程</a></li>
+                        <li><a href="#">用户评论/咨询</a></li>
+                        <li><a href="#">大件商品订购流程</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="help-fresh">
+                <dt>新手上路</dt>
+                <dd>
+                    <ul>
+                        <li><a href="#">怎样购物</a></li>
+                        <li><a href="#">支付常见问题</a></li>
+                        <li><a href="#">免运费政策 </a></li>
+                        <li><a href="#">发票须知</a></li>
+                        <li><a href="#">签收验货流程</a></li>
+                        <li><a href="#">用户评论/咨询</a></li>
+                        <li><a href="#">大件商品订购流程</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="help-fresh">
+                <dt>新手上路</dt>
+                <dd>
+                    <ul>
+                        <li><a href="#">怎样购物</a></li>
+                        <li><a href="#">支付常见问题</a></li>
+                        <li><a href="#">免运费政策 </a></li>
+                        <li><a href="#">发票须知</a></li>
+                        <li><a href="#">签收验货流程</a></li>
+                        <li><a href="#">用户评论/咨询</a></li>
+                        <li><a href="#">大件商品订购流程</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="help-fresh">
+                <dt>新手上路</dt>
+                <dd>
+                    <ul>
+                        <li><a href="#">怎样购物</a></li>
+                        <li><a href="#">支付常见问题</a></li>
+                        <li><a href="#">免运费政策 </a></li>
+                        <li><a href="#">发票须知</a></li>
+                        <li><a href="#">签收验货流程</a></li>
+                        <li><a href="#">用户评论/咨询</a></li>
+                        <li><a href="#">大件商品订购流程</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="help-fresh wu">
+                <dt>新手上路</dt>
+                <dd>
+                    <ul>
+                        <li><a href="#">怎样购物</a></li>
+                        <li><a href="#">支付常见问题</a></li>
+                        <li><a href="#">免运费政策 </a></li>
+                        <li><a href="#">发票须知</a></li>
+                        <li><a href="#">签收验货流程</a></li>
+                        <li><a href="#">用户评论/咨询</a></li>
+                        <li><a href="v">大件商品订购流程</a></li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <span>上海网警提示</span>
+            <p>网络刷单是违法，切莫轻信有返利；网上交友套路多，卖惨要钱需当心；电子红包莫轻点，个人信息勿填写；仿冒客服来行骗，官方核实最重要；招工诈骗有套路，预交费用需谨慎；</p>
+            <s>低价充值莫轻信，莫因游戏陷套路；连接WIFI要规范，确认安全再连接；抢购车票有章法，确认订单再付款；白条赊购慎使用，提升额度莫轻信；网购预付有风险，正规渠道很重要。</s>
+        </div>
+    </footer> -->
+</body>
+<script src="libs/jquery.js"></script>
+<script src="libs/ajax.4.0.js"></script>
+<script src="libs/cookie.js"></script>
+<script src="js/totop.js"></script>
+<script>
+
+$(".item").children("dl").mouseover(function(){
+//  console.log(this)      	
+    $(this).children("dd").stop().slideDown(500)
+})
+$(".item").children("dl").mouseout(function(){
+//  console.log(this)      	
+    $(this).children("dd").stop().slideUp(500)
+})
+
+var odj = document.getElementById("dj");
+var olist = document.querySelector(".menulist");
+odj.onmouseover = function(){
+    setTimeout(()=>{
+        olist.style.display = "block";
+    },10)
+}
+
+$(".menulist").find(".ddwrap").mouseout(function () {
+    $(this).parent().parent().parent().parent().parent().stop().slideUp(500)
+})
+
+$(".zuoshang").find(".zhengji").click(function () {
+    $(".neirong1").css({display:"block"});
+    $(".neirong2").css({display:"none"});
+})
+$(".zuoshang").find(".peijian").click(function () {
+    $(".neirong2").css({display:"block"});
+    $(".neirong1").css({display:"none"});
+})
+
+		function Enlarge(){
+			this.oSbox = document.querySelector(".sbox");
+			this.oBbox = document.querySelector(".bbox");
+			this.ospan = this.oSbox.children[1];
+			this.oBimg = this.oBbox.children[0];
+			this.qita = document.querySelector(".qita");
+
+			this.init();
+			this.lb();
+		}
+		Enlarge.prototype.init = function(){
+			var that = this;
+			that.oSbox.onmouseover = function(){
+				that.show();				
+			}
+			that.oSbox.onmouseout = function(){
+				that.hide();				
+			}
+		}
+		Enlarge.prototype.show = function(){
+			this.oBbox.style.display = "block";
+			this.ospan.style.display = "block";
+			this.addMove();
+		}
+		Enlarge.prototype.hide = function(){
+			this.oBbox.style.display = "none";
+			this.ospan.style.display = "none";
+		}
+		Enlarge.prototype.addMove = function(){
+			var that = this;
+			this.oSbox.onmousemove = function(eve){
+				var e = eve || window.event;
+				that.spanMove(e);
+			}
+		}
+		Enlarge.prototype.spanMove = function(e){
+			this.l = e.offsetX - this.ospan.offsetWidth/2;
+			this.t = e.offsetY - this.ospan.offsetHeight/2;
+			if(this.l<0) this.l=0;
+			if(this.t<0) this.t=0;
+			if (this.l>this.oSbox.offsetWidth - this.ospan.offsetWidth) {
+				this.l=this.oSbox.offsetWidth - this.ospan.offsetWidth
+			}
+			if (this.t>this.oSbox.offsetHeight - this.ospan.offsetHeight) {
+				this.t=this.oSbox.offsetHeight - this.ospan.offsetHeight
+			}
+			this.ospan.style.left = this.l + "px";
+			this.ospan.style.top = this.t + "px";
+			this.x = this.l / (this.oSbox.offsetWidth - this.ospan.offsetWidth) ;
+			this.y = this.t / (this.oSbox.offsetHeight - this.ospan.offsetHeight);
+			this.move();
+		}
+		Enlarge.prototype.move = function(){
+			this.oBimg.style.left = -(this.oBimg.offsetWidth - this.oBbox.offsetWidth) * this.x + "px";
+			this.oBimg.style.top = -(this.oBimg.offsetHeight - this.oBbox.offsetHeight) * this.y + "px";
+		}
+		Enlarge.prototype.lb = function(){
+			var that = this;
+			this.qita.children[0].onclick = function(){
+				that.oSbox.children[0].src = that.qita.children[0].src
+				that.oBbox.children[0].src = that.qita.children[0].src
+			}
+			this.qita.children[1].onclick = function(){
+				that.oSbox.children[0].src = that.qita.children[1].src
+				that.oBbox.children[0].src = that.qita.children[1].src
+			}
+			this.qita.children[2].onclick = function(){
+				that.oSbox.children[0].src = that.qita.children[2].src
+				that.oBbox.children[0].src = that.qita.children[2].src
+			}
+			this.qita.children[3].onclick = function(){
+				that.oSbox.children[0].src = that.qita.children[3].src
+				that.oBbox.children[0].src = that.qita.children[3].src
+			}
+		}
+        new Enlarge()
+        
+
+</script>
+</html>

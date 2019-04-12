@@ -1,0 +1,183 @@
+#daohang{
+    height: 29px;
+    background: #f0f0f0;
+    float: left;
+    text-align: left;
+    display: inline-block;
+    line-height: 29px;
+    color: #333;
+    width: 100%;
+    position: absolute;
+    top: 151px;
+}
+#daohang .kuai{
+    left: 32px;    
+    position: absolute;
+}
+#daohang a{
+    float: left;
+}
+#daohang p{
+    float: left;
+}
+
+#main{
+    width: 1200px;
+    margin: auto;
+    margin-top: 35px;
+    padding-bottom: 10px;
+}
+#main .quan{
+    padding-top: 5px; 
+}
+#main .zuobian{
+    float:left;
+    width: 179px;
+}
+#main .zuobian .zuoshang{
+    border: 1px solid #f3ce76;
+    border-top: 0;
+    text-align: left;
+}
+#main .zuobian .zuoshang dt{
+    height: 29px;
+    background: #ffdc93;
+    border-top: 1px solid #f3ce76;
+    font-size: 14px;
+}
+#main .zuobian .zuoshang dt i{
+    display: block;
+    padding: 8px 8px 4px 23px;
+    cursor: pointer;
+}
+#main .zuobian .zuoshang dd{
+    display: none;
+    padding: 5px 0;
+    background-color: #fffff2;
+
+}
+#main .zuobian .zuoshang dd li{
+    height: 24px;
+    padding-left: 34px;
+    line-height: 24px;
+}
+#main .zuoxia{
+    border: 1px solid #e6e6e6;
+    margin-top: 10px;
+}
+#main .zuoxia h3{
+    height: 29px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0 10px;
+    line-height: 28px;
+}
+ #main .zuoxia li{
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    padding: 16px 5px 16px 75px;
+    width: 97px;
+    height: 60px;
+}
+#main .zuoxia li .img{
+    position: absolute;
+    left: 12px;
+    top: 16px;
+}
+#main .zuoxia .hot .img img{
+    width: 60px;
+    height: 45px;
+   
+}
+#main .zuoxia ul .title {
+    margin: 4px 0; 
+    height: 36px;
+    margin-top: 0px;
+}
+#main .zuoxia .price{
+    color: #f60;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+} 
+#main .youbian{
+    float:left;
+    width:1010px;
+    margin-left: 11px;
+}
+#main .youbian .youshang .biaoti{
+    padding: 6px 0;
+    line-height: 18px;
+    background-color: #edf3fa;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+#main .youbian .youshang .biaoti h3{
+    padding-left: 22px;
+    font-size: 14px;
+}
+.youbian .youshang .pinpai{
+    border: 1px solid #ccc;
+}
+.youbian .youshang .pinpai li{
+    margin-top: -1px;
+    padding: 9px 0 6px 90px;
+    line-height: 18px;
+    float: left;
+    font-weight: bold;
+}
+.youbian .youshang .page{
+    border: 1px solid #ccc;
+    height: 34px;
+}
+.youbian .youshang .page li{
+    margin-top: -1px;
+    padding: 9px 0 6px 90px;
+    line-height: 18px;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+}
+.youbian .youshang .page li:hover{
+    text-decoration:underline;
+    color: #f60;
+}
+.youbian .youxia li{
+    width: 221px;
+    height: 168px;
+    margin: 20px 0 5px 0;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    float: left;
+}
+.youbian .youxia li img{
+    height: 168px;
+    margin: 20px 0 5px 0;
+}
+.youbian .youxia li p{
+    overflow: hidden;
+    word-wrap: break-word;
+    margin: 4px 0;
+}
+.youbian .youxia li b{
+    height: 18px;
+    margin: 4px 0;
+    overflow: hidden;
+    color: #84984f;
+}
+.youbian .youxia li span{
+    font-size: 16px;
+    color: #f60;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.youbian .youxia li s{
+    margin-top: 15px;
+    text-align: center;
+    background-color: #f7661f;
+    border: 1px solid #f7661f;
+    padding: 0 10px;
+    height: 23px;
+    line-height: 24px;
+    cursor: pointer;
+}
+#ad{margin-top: 20px;}

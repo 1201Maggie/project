@@ -1,0 +1,1989 @@
+.margin{
+	width: 75rem;
+	margin: 0 auto;
+}
+
+.top{
+    line-height: 1.5rem;
+    height: 1.5rem;
+    background-color: #f1f1f1;
+    border-bottom: 0.062rem solid #e2e2e2;
+    position: relative;
+    
+}
+.top .left{
+    float: left;
+}
+.top .left p{
+    float: left;
+    margin-right: 10px;
+}
+.top .left p span{
+    padding-right: 2px;
+}
+.top .right{
+	float: right;
+}
+.top .right span{margin: 0 0.625rem;}
+.top .right ul{
+	float: right;
+}
+.top .right ul li{
+	float: left;
+	padding: 0 1.562rem 0  0.687rem;
+}
+.top .right ul .inner{display: none}
+.top .right ul .xiaLa:hover{background: #fff;}
+.top .right ul .xiaLa:hover .inner{
+    z-index: 2;
+    background: #fff;
+    border: 1px solid #c1c1c1;
+    display: block;
+    position: absolute;
+    right: 31px;
+    top: 23px;
+}
+.top .right ul .connect_way a{
+    border: 1px solid #4f9ee7;
+    background: #4f9ee7;
+    color: #fff;
+    line-height: 30px;
+    display: block;
+    font-size: 16px;
+}
+header{
+	height: 5.375rem;
+	position: relative;
+	width: 75rem;
+}
+header .logo{
+	width: 19.875rem;
+    height: 4.062rem;
+    position: absolute;
+    left: 2.75rem;
+    top: 0.687rem;
+}
+header .search{
+	left: 25.75rem;
+    height: 2.125rem;
+    position: absolute;
+    top: 1.125rem;
+}
+#topSearch{
+	height: 1.875rem;
+    border: 0.125rem solid #f60;
+    float: left;
+    line-height: 1.875rem;
+    color: #b7b7b7;
+    font-size: 1em;
+    margin: 0;
+    width: 15.125rem;
+    text-indent: 0.375rem;
+}
+#btn{
+	width: 6.125rem;
+    height: 2.125rem;
+    background: #f60;
+    color: #fff;
+    text-indent: 0;
+    font: bolder 0.875rem/2.125rem simsun;
+    text-align: center;
+    float: left;
+    border-radius: 0 0.187rem 0.187rem 0;
+    text-decoration: none;
+    border:0;
+    cursor: pointer;
+}
+header .search .hot{
+	color: #767676;
+	margin-top: 0.25rem;
+    overflow: hidden;
+    clear: both;
+    line-height: 1.812rem;
+}
+nav{
+	margin-bottom: 0.625rem;
+	background: #10286C;
+	position: relative;
+    height: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav .nav{
+	position: absolute;
+    left: 14.312rem;
+}
+nav .nav ul li{
+	float: left;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 1.25rem;
+    display: block;
+    color: #fff;
+    font: 0.875rem/2.5rem;
+}
+nav .nav ul li:hover{
+	background: dodgerblue;
+}
+nav .nav ul li a{
+	color: #fff;
+}
+nav .menu{
+	width: 11.187rem;
+	height: 2.5rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/sprite_v140425.png) no-repeat 7.5rem -78.25rem #F60;
+    text-indent: 1.25rem;
+}
+nav .menu a{
+	height: 2.5rem;
+    overflow: hidden;
+    display: block;
+    color: #fff;
+    font: 0.875rem/2.625rem "";
+}
+nav .right{
+	position: absolute;
+    right: 2.5rem;
+    top: 0;
+    padding-right: 7.125rem;
+    height: 2.5rem;
+}
+nav .right dl{
+	background: #f60;
+    border: 0.125rem solid #f60;
+    height: 2.25rem;
+}
+nav .right .mycar dt{
+	padding: 0 1.812rem 0 0.812rem;
+    margin-top: 0.5rem;
+}
+nav .right .mycar dt a{
+	display: inline-block;
+    line-height: 2rem;
+    color: #fff;
+    height: 1.375rem;
+    line-height: 1.375rem;
+}
+nav .right .mycar dt a strong{
+	min-width: 1rem;
+    display: inline-block;
+    text-align: center;
+    margin: 0 0.187rem;
+    color: #ffb380;
+}
+nav .right .mycar .openerC{
+    display: none;
+}
+nav .right .mycar:hover{
+    background: #fff;
+    border-bottom: none;
+}
+nav .right .mycar:hover dt a{
+    color: #000;
+}
+nav .right .mycar:hover dt a strong{
+    color: #f60;
+}
+nav .right .mycar:hover .openerC{
+    position: absolute;
+    left: -0px;
+    top: 38px;
+    background-color: #fff;
+    border: 2px solid #f60;
+    display: block;
+    z-index: 2;
+    border-top: none;
+    width: 233px;
+    min-height: 80px;
+    color: #333;
+}
+nav .right .mycar:hover .inner p {
+    padding: 31px 0;
+    text-align: center;
+    color: #999;
+}
+
+nav .right .favor{
+	right: 0;
+	width: 6.937rem;
+	position: absolute;
+	top: 0;
+}
+nav .right .favor dt{
+	padding-bottom: 0.375rem;
+    margin-top: 0.5rem;
+    padding: 0 1.062rem 0 1.25rem;
+    border-left: 0.062rem solid #FA8B29;
+}
+nav .right .favor dt a{
+	display: inline-block;
+    line-height: 2rem;
+    color: #fff;
+    height: 1.375rem;
+    line-height: 1.375rem;
+}
+nav .right .favor .openerC{
+    display: none;
+}
+nav .right .favor:hover{
+    background: #fff;
+    border-bottom: none;
+}
+nav .right .favor:hover dt a{
+    color: #000;border: none;
+}
+nav .right .favor:hover .openerC{
+    position: absolute;
+    right: -2px;
+    top: 38px;
+    background-color: #fff;
+    border: 2px solid #f60;
+    display: block;
+    z-index: 2;
+    border-top: none;
+    width: 233px;
+    min-height: 80px;
+    color: #333;
+}
+nav .right .favor:hover .inner p {
+    padding: 31px 0;
+    text-align: center;
+    color: #bbb;
+}
+nav .right .favor:hover .inner a{
+    display: block;
+    background-color: #f7661f;
+    border: 1px solid #f7661f;
+    color: #fff;
+    padding: 0 10px;
+    line-height: 24px;
+    border-radius: 2px;
+    width: 30px;
+    position: absolute;
+    left: 160px;
+    bottom: 30px;
+}
+.f1{
+	width: 60.062rem;
+    height: 29.875rem;
+	float: left;
+}
+.menulist{
+	position: absolute;
+    top: 9.375rem;
+    width: 11.187rem;
+    background-color: #fff;
+}
+.menulist ul{
+	border: 0.125rem solid #f60;
+    border-top: none;
+}
+.menulist ul .item{
+    width: 10.937rem;
+}
+.menulist ul .item dl{
+	position: relative;
+    border-bottom: 1px solid #E5E5E5;
+}
+.menulist dt .links {
+    display: block;
+    color: #333;
+    padding: 0.625rem 0.937rem 0 1.25rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/sprite_v140425.png) no-repeat 9.062rem -96.187rem;	
+}
+.menulist dt .links .iconfont{
+    position: absolute;
+    width: 0.875rem;
+    height: 0.812rem;
+    left: 0.25rem;
+    top: 8px;
+}
+.menulist dt .links h4{
+	height: 1.375rem;
+    margin-bottom: 0.125rem;
+    margin-left: 1px;
+    margin-left: 10px;
+}
+.menulist dt .links h4 a{
+	color: #333;
+    font-size: 0.875rem;
+}
+.menulist dt .links .se_links .clf60{
+	color: #f60;
+}
+.menulist .last .links h4{
+	position: relative;
+}
+.menulist .item dd{
+	left: 149px;
+	display: none;
+    position: absolute;
+    width: 817px;
+    z-index: 10;
+    background: #fff;
+    border: 1px solid #CCC;
+}
+.menulist .item dd .ddwrap{
+    width: 818px;
+}
+.menulist dd .ddwrap_brand_table, .menulist .childmenu .ddwrap_brand_table {
+    width: 540px;
+    float: left;
+    position: relative;
+    margin: 7px 0 0 20px;
+}
+.menulist .ddwrap_brand_table th {
+    font-weight: bold;
+    padding-left: 0;
+    text-align: left;
+    font-size: 12px;
+    padding: 6px 8px 6px 15px;
+    line-height: 26px;
+    vertical-align: top;
+    color: #484848;
+}
+.menulist .ddwrap_brand_table td {
+    width: 461px;
+    padding-left: 9px;
+    padding: 6px 8px 6px 15px;
+    line-height: 26px;
+    vertical-align: top;
+    color: #484848;
+}
+.menulist .ddwrap_brand_table td a {
+    white-space: nowrap;
+    color: #666;
+}
+.menulist .ddwrap_brand_table td b {
+    margin: 0 4px;
+    color: #ccc;
+    display: inline-block;
+} 
+.swiper{
+	 margin: 0 0 1.25rem 11.875rem;
+     width: 771px;
+     height: 245px;
+     left: 0px;
+}
+.swiper .sw{
+	width: 771px;
+	height: 245px;;
+}
+.sw img{
+	width: 771px;height: 245px;position: absolute;left: 771px;
+}
+.sw img:first-child{
+	left: 0;
+	}
+.swiper .point{
+	height: 1.625rem;
+    position: absolute;
+    right: 0.5rem;
+    bottom: 1.562rem;
+}
+.swiper .point a{
+	display: inline-block;
+    height: 1.625rem;
+    width: 1.625rem;
+    margin-left: 0.312rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.625rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/navbg.png) -2.187rem top no-repeat;
+}
+.swiper .point a .current{
+	background-position: left top;
+}
+.timer{
+	width: 48.1875rem;
+	position: relative;
+	margin-top: 0.625rem;
+	padding-left: 11.875rem;
+}
+.timer h2{
+	font-size: 1rem;
+    padding-left: 0.75rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.625rem;
+    color: #bf1313;
+}
+.timer .more{
+	display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 1rem;
+    height: 1.187rem;
+    font-weight: bold;
+    padding: 0 0.75rem 0 0.625rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/arrow130427.png) no-repeat 5.5rem 0.25rem;
+}
+.timer .proslider{
+	height: 10.562rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.timer .proslider .mover{
+	width: 46.5rem;
+	height: 10.562rem;
+	margin: 0 auto;
+}
+.timer .proslider .mover ul{
+	width: 1250rem;
+    position: absolute;
+    top: 0;
+}
+.timer .proslider .mover ul li{
+	padding: 0 1.125rem;
+	float: left;
+	width: 9.375rem;
+}
+.timer .proslider .mover ul li .img{
+	text-align: center;
+    height: 6.75rem;
+    position: relative;
+}
+.timer .proslider .mover ul li .title{
+	height: 2.25rem;
+	overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.timer .proslider .mover ul li .price{
+	color: #f60;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.timer .proslider .abtn{
+	background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/abtn130426.png) no-repeat;
+    display: block;
+    width: 0.5625rem;
+    height: 1.0625rem;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -1250rem;
+    top: 5.125rem;
+}
+.timer .proslider .aright{
+	background-position: -0.5625rem 0;
+	right: 0;
+}
+.timer .main{
+	position: absolute;
+    left: 50%;
+    top: -0.1875rem;
+    color: #666;
+    font-weight: bold;
+    font-size: 0.875rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    white-space: nowrap;
+}
+.side{
+	width: 14.375rem;
+	float: right;
+    display: inline;
+}
+.side .top{
+	border: 0.125rem solid #f1d4b3;
+    background-color: #ffefe0;
+    height: 15.0625rem;
+    position: relative;
+    font-family: "microsoft yahei";
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+}
+.side .top .mover{
+	width: 14.125rem;
+	height: 15.0625rem;
+}
+.side .top .mover ul{
+	width: -1250rem;
+	right: 0;
+	position: absolute;
+}
+.side .top .mover ul li{
+	width: 14.125rem;
+	height: 15.0625rem;
+	padding: 0;
+	float: left;
+}
+.side .top .nav{
+	position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    height: 0.625rem;
+    line-height: 0;
+    overflow: hidden;
+}
+.side .top .nav a{
+	display: inline-block;
+    width: 0.625rem;
+    height: 0.625rem;
+    overflow: hidden;
+    text-indent: -1250rem;
+    margin-right: 0.4375rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/dotnav20140512.png) no-repeat -1rem top;
+}
+.side .top .nav .current{
+	background-position: left top;
+}
+.side .bottom{
+	width: 13.625rem;
+}
+.hot_sale{
+	width: 60rem;
+	float: left;
+	position: relative;
+}
+.pub{
+	border-top: none;
+    padding-top: 0.4375rem;
+    color: #f60;
+    height: 2.375rem;
+    padding-left: 0.625rem;
+    font:bolder 1.25rem "";
+    border-right: none;
+    line-height: 2.25rem;
+    border-bottom: 0.1875rem solid #f60;
+}
+.hot_title{
+	width: 55rem;
+	position: absolute;
+    top: 1.2rem;
+    left: 5rem;
+}
+.hot_title a{
+	padding-left: 1rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/hot_flash.png) 0 0.125rem no-repeat;
+    float: left;
+}
+.hot_title span{
+	float: right;
+}
+.hot_pro{
+	border: 0.0625rem solid #dadada;
+    padding-bottom: 0.1875rem;
+    height: 14.625rem;
+    margin-bottom: 1.25rem;
+}
+.hot_pro ul{
+	width: 1250rem;
+    position: absolute;
+    top: 0;
+}
+.hot_pro ul li{
+	float: left;
+	overflow: hidden;
+	height: 12.4375rem;
+    width: 12.25rem;
+    padding: 0.9375rem 1.1875rem 1rem 1.5rem;
+}
+.hot_pro ul li .img{
+	height: auto;
+	text-align: center;
+    position: relative;
+}
+.hot_pro ul li .title{
+	height: 2.25rem;
+	overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.hot_pro ul li .priceline{
+	margin-left: 1.125rem;
+    width: 5.3125rem;
+    float: left;
+    line-height: 0.875rem;
+    padding-top: 0.1875rem;
+}
+.hot_pro ul li .priceline .price{
+	font-size: 0.875rem;
+	color: #f60;
+    font-weight: bold;
+}
+.hot_pro ul li .buy{
+	background-color: #f7661f;
+    border:  0.0625rem solid #f7661f;
+    padding: 0 0.625rem;
+    height: 1.4375rem;
+    line-height: 1.5rem;
+    font-size: 0.75rem;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0.125rem;
+    vertical-align: top;
+}
+.side2{
+	float: right;
+	width: 14.375rem;
+	display: inline;
+	padding-top: 2.125rem;
+}
+.side2 .news{
+	padding: 0.625rem 0;
+    width: 99%;
+    border: 0.0625rem solid #d9d9d9;
+    height: 6.25rem;
+    background: #f6f6f6;
+    margin-top: 0.625rem;
+}
+.side2 .news dl dt{
+	font: bolder 0.875rem simusn;
+    color: #666;
+    margin-bottom: 0.5rem;
+    height: 1.125rem;
+    padding: 0 0.625rem 0.3125rem 0.625rem;
+    border-bottom: 0.0625rem dashed #D9D9D9;
+}
+.side2 .news dl dt h5{
+	font: bolder 0.875rem "";
+    color: #666;
+    margin: 0 0 0.5rem 0;
+    float: left;
+}
+.side2 .news dl dt a{
+	font: 0.75rem "";
+    float: right;
+    margin: 0 0.625rem 0 0.625rem;
+}
+.side2 .news dl dd{
+	font: 0.75rem simusn;
+    margin-bottom: 0.375rem;
+    height: 0.875rem;
+    overflow: hidden;
+    clear: both;
+    padding: 0 0.625rem;
+}
+.side2 .news dl dd .icon_n{
+	width: 1.25rem;
+    height: 0.5625rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/sprite_v140425.png) no-repeat 0 -64.4375rem;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -1250rem;
+    vertical-align: middle;
+}
+.good{
+	height: 20.3125rem;
+	overflow: hidden;
+	position: relative;
+	float: left;
+    display: inline;
+    margin-bottom: 1.25rem;
+}
+.good_title{
+	width: 70rem;
+}
+.good_cnt{
+	width: 74.875rem;
+	height: 17.1875rem;
+    border: 0.0625rem solid #dadada;   
+    overflow: hidden;
+    position: relative;
+}
+.good_c{
+	float: left;
+    padding-top: 2.1875rem;
+    height: 17.1875rem;
+    overflow: hidden;
+}
+.good_child1{
+	display: block;
+}
+.good_child1 .hot_comment_img{
+	float: left;
+    width: 15.625rem;
+    height: 14.9375rem;
+    margin: 0 1.875rem;
+}
+.good_c .hot_comment_content{
+	width: 21.125rem;
+    float: left;
+}
+.good_c .hot_comment_title{
+	color: #333;
+    font: 0.875rem "";
+    margin-bottom: 0.625rem;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 22.5rem;
+}
+.hot_comment_title strong{
+	color: #f60;
+}
+.hot_comment_title a{
+	color: #333;
+    display: inline-block;
+    font: 0.875rem "";
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    width: 16.875rem;
+}
+.hot_comment_content p{
+	font: 0.75rem/1.25rem "";
+    color: #676767;
+    height: 7.6875rem;
+    margin-bottom: 0.625rem;
+}
+.good_c .good_child2{	
+    width: 10.9375rem;
+}
+.current .good_child2{
+	display: none;
+}
+.good_child2 .hot_comment_scroe{
+	margin-bottom: 0;
+}
+.good_child2 .hot_comment_scroe p{
+	color: #f60;
+}
+.section4 .left{
+	width: 60rem;
+	float: left;
+    display: inline;
+	margin-top: 0.3125rem;
+}
+.section4 .promotion{
+	float: right;
+    display: inline;
+    border: 1px solid #d9d9d9;
+    width: 59.875rem;
+}
+.promotion .tab{
+	height: 1.875rem;
+    line-height: 1.875rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/home_sprite.png) repeat-x left -4.1875rem;
+    overflow: hidden;
+}
+.promotion .tab a {
+    width: 14.9375rem;
+    display: block;
+    float: left;
+    height: 1.8125rem;
+    line-height: 1.875rem;
+    font-size: 0.875rem;
+    border-right: 0.0625rem solid #d9d9d9;
+    text-align: center;
+}
+.promotion .tab .now{
+	color: #f60;
+    background: #FFF;
+    border-bottom: 0.0625rem solid #fff;
+}
+.promotion .tab .last{
+	width: 14.875rem;
+	border-right: none;
+}
+.promotion .tabc{
+    display: none;
+	width: 58.625rem;
+	height: 13rem;
+    overflow: hidden;
+    position: relative;
+    padding: 1.875rem 0.625rem 0;
+}
+.promotion .tab .active{
+    display: block;
+    background: #000;
+    color: #FFF;
+}
+.promotion .active{
+    display: block;
+}
+.promotion .tabc ul {
+    width: 59.375rem;  
+}
+.promotion .tabc li {
+    padding: 0 1.125rem;
+    float: left;
+    width: 9.375rem;
+}
+.promotion .tabc .prolist .img {
+    text-align: center;
+    height: 6.75rem;
+    position: relative;
+}
+.promotion .tabc .prolist .img img{
+	width: 9rem;
+    height: 6.75rem;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.promotion .prolist .title {
+    margin-bottom: 0.875rem;
+    height: 2.25rem;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.promotion .prolist .price{
+	color: #f60;
+    font-weight: bold;
+    font-size: 0.875rem;
+    display: block;
+    padding-top: 1rem;
+}
+.section4 .right{
+	width: 15rem;
+    height: 16.875rem;
+    float: right;
+    display: inline;
+    margin-top: 0.3125rem
+}
+.section4 .right .bom{
+	width: 14.875rem;
+    height: 16.75rem;
+    border: 0.0625rem solid #d9d9d9;
+    border-left: 0;
+    background-color: #ffefe0;
+    position: relative;
+    font-size: 0.875rem;
+}
+.section4 .right .bom .mover{
+	width: 14.875rem;
+    height: 16.75rem;
+}
+.section4 .right .bom ul{
+	width: 1250px;
+    position: absolute;
+    top: 0;
+}
+.section4 .right .bom ul li{
+	width: 14.875rem;
+    height: 16.75rem;
+    padding: 0;
+    float: left;
+}
+.floor{
+    margin-bottom: 3.85rem;
+}
+.floor .mainF{
+	width: 60rem;
+	float: left;
+    display: inline;
+    margin-top: 20px;
+}
+.floor .mainF .floor_1{
+    height: 511px;
+	width: 60rem;
+	overflow: hidden;
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+.floor_1 .cont{
+	width: 58.625rem;
+    height: 25.5625rem;
+    overflow: hidden;
+    padding: 0 0.625rem 0 0.625rem;
+    border: 0.0625rem solid #dadada;
+    border-top: none;
+    border-bottom: 0.0625rem solid #e9e9e9;    
+}
+.floor_1 .cont .floor_o{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_o .img a{
+	float: none;
+}
+.floor_o .img img{
+	margin: 0 auto;
+}
+.floor_o .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_o .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_t{
+    width: 30rem;
+    height: 205px;
+    margin-left: 0;
+    float: left;
+}
+.floor_t .ad{
+	position: absolute;
+    top: 0;
+    width: 1250rem;
+}
+.floor_t .ad li{
+    width: 30rem;
+    height: 12.8125rem;
+    overflow: hidden;
+    float: left;
+}
+.floor_t .ad li a{
+	float: left;
+}
+.floor_t .nav{
+    position: absolute;
+    right: 0.3125rem;
+    bottom: 0.375rem;
+}
+.floor_t .nav .current{
+	text-decoration: none;
+    background-position: left top;
+}
+.floor_t .nav a{
+	display: inline-block;
+    width: 1.125rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 0.875rem;
+    color: #fff;
+    margin-left: 0.1875rem;
+    font-size: 0.6875rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/navsbg.png) no-repeat -1.25rem top;
+    float: left;
+}
+.floor_1 .cont .floor_th{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_th .img a{
+	float: none;
+}
+.floor_th .img img{
+	margin: 0 auto;
+}
+.floor_th .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_th .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_1 .cont .floor_f{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_f .img a{
+	float: none;
+}
+.floor_f .img img{
+	margin: 0 auto;
+}
+.floor_f .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_f .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_1 .cont .floor_5{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_5 .img a{
+	float: none;
+}
+.floor_5 .img img{
+	margin: 0 auto;
+}
+.floor_5 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_5 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_1 .cont .floor_6{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_6 .img a{
+	float: none;
+}
+.floor_6 .img img{
+	margin: 0 auto;
+}
+.floor_6 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_6 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_1 .cont .floor_7{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_7 .img a{
+	float: none;
+}
+.floor_7 .img img{
+	margin: 0 auto;
+}
+.floor_7 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_7 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.brandlogo{
+    width: 59.6875rem;
+    padding: 0.375rem 0 0.375rem 0.1875rem;
+    overflow: hidden;
+    border: 1px solid #dadada;
+    border-top: none;
+}
+.brandlogo ul{
+	width: 75rem;
+}
+.brandlogo ul li{
+    width: 7.4375rem;
+    height: 2.5rem;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+.brandlogo ul li a{
+    display: block;
+    width: 6.25rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cebian{
+    width: 230px;
+    float: right;
+    position: relative;
+    margin-top:25px;
+}
+.cebian h3{
+    padding-top: 3px;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 6px;
+    border: 1px solid #dbdbdb;
+    font-size: 12px;
+}
+.cebian .option{
+    position: absolute;
+    left: 50px;
+    top: 4px;
+}
+.cebian .option a{
+    display: block;
+    float: left;
+    width: 56px;
+    height: 26px;
+    margin-right: 1px;
+    line-height: 26px;
+    text-align: center;
+}
+.cebian .option a{
+    background-color: #e9e9e9;
+}
+.cebian .option .active{
+    color: #f60;
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-bottom-color: #fff;
+}
+.cebian .cont  {
+    border: 1px solid #dbdbdb;
+    border-top: none;
+    display:none;
+}
+.cebian .active{display: block;}
+.cebian .cont ul li{
+    padding: 16px 12px 16px 100px;
+    width: 116px;
+    height: 60px;
+    position: relative;
+    border-bottom: 1px solid #dbdbdb;
+}
+.cebian .cont .img{
+    position: absolute;
+    left: 12px;
+    top: 16px;
+}
+.cebian .cont .img img{
+    width: 80px;
+    height: 60px;
+}
+.cebian .png{
+    width:230px;
+    height: 91px;
+    margin-top: 10px;
+}
+.cebian .title{
+    margin: 4px 0;
+    height: 36px;
+}
+.cebian .price{
+    color: #f60;
+    font-size: 14px;
+    font-weight: bold;
+}
+.floor .mainF .floor_2{
+    height: 511px;
+	width: 60rem;
+	overflow: hidden;
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+.floor_2 .cont{
+	width: 58.625rem;
+    height: 25.5625rem;
+    overflow: hidden;
+    padding: 0 0.625rem 0 0.625rem;
+    border: 0.0625rem solid #dadada;
+    border-top: none;
+    border-bottom: 0.0625rem solid #e9e9e9;    
+}
+.floor_2 .cont .floor_o{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_o .img a{
+	float: none;
+}
+.floor_o .img img{
+	margin: 0 auto;
+}
+.floor_o .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_o .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_t{
+    width: 30rem;
+    height: 205px;
+    margin-left: 0;
+    float: left;
+}
+.floor_t .ad{
+	position: absolute;
+    top: 0;
+    width: 1250rem;
+}
+.floor_t .ad li{
+    width: 30rem;
+    height: 12.8125rem;
+    overflow: hidden;
+    float: left;
+}
+.floor_t .ad li a{
+	float: left;
+}
+.floor_t .nav{
+    position: absolute;
+    right: 0.3125rem;
+    bottom: 0.375rem;
+}
+.floor_t .nav .current{
+	text-decoration: none;
+    background-position: left top;
+}
+.floor_t .nav a{
+	display: inline-block;
+    width: 1.125rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 0.875rem;
+    color: #fff;
+    margin-left: 0.1875rem;
+    font-size: 0.6875rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/navsbg.png) no-repeat -1.25rem top;
+    float: left;
+}
+.floor_2 .cont .floor_th{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_th .img a{
+	float: none;
+}
+.floor_th .img img{
+	margin: 0 auto;
+}
+.floor_th .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_th .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_2 .cont .floor_f{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_f .img a{
+	float: none;
+}
+.floor_f .img img{
+	margin: 0 auto;
+}
+.floor_f .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_f .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_2 .cont .floor_5{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_5 .img a{
+	float: none;
+}
+.floor_5 .img img{
+	margin: 0 auto;
+}
+.floor_5 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_5 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_2 .cont .floor_6{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_6 .img a{
+	float: none;
+}
+.floor_6 .img img{
+	margin: 0 auto;
+}
+.floor_6 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_6 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_2 .cont .floor_7{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_7 .img a{
+	float: none;
+}
+.floor_7 .img img{
+	margin: 0 auto;
+}
+.floor_7 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_7 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.brandlogo{
+    width: 59.6875rem;
+    padding: 0.375rem 0 0.375rem 0.1875rem;
+    overflow: hidden;
+    border: 1px solid #dadada;
+    border-top: none;
+}
+.brandlogo ul{
+	width: 75rem;
+}
+.brandlogo ul li{
+    width: 7.4375rem;
+    height: 2.5rem;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+.brandlogo ul li a{
+    display: block;
+    width: 6.25rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.floor .mainF .floor_3{
+    height: 511px;
+	width: 60rem;
+	overflow: hidden;
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+.floor_3 .cont{
+	width: 58.625rem;
+    height: 25.5625rem;
+    overflow: hidden;
+    padding: 0 0.625rem 0 0.625rem;
+    border: 0.0625rem solid #dadada;
+    border-top: none;
+    border-bottom: 0.0625rem solid #e9e9e9;    
+}
+.floor_3 .cont .floor_o{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_o .img a{
+	float: none;
+}
+.floor_o .img img{
+	margin: 0 auto;
+}
+.floor_o .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_o .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_t{
+    width: 30rem;
+    height: 205px;
+    margin-left: 0;
+    float: left;
+}
+.floor_t .ad{
+	position: absolute;
+    top: 0;
+    width: 1250rem;
+}
+.floor_t .ad li{
+    width: 30rem;
+    height: 12.8125rem;
+    overflow: hidden;
+    float: left;
+}
+.floor_t .ad li a{
+	float: left;
+}
+.floor_t .nav{
+    position: absolute;
+    right: 0.3125rem;
+    bottom: 0.375rem;
+}
+.floor_t .nav .current{
+	text-decoration: none;
+    background-position: left top;
+}
+.floor_t .nav a{
+	display: inline-block;
+    width: 1.125rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 0.875rem;
+    color: #fff;
+    margin-left: 0.1875rem;
+    font-size: 0.6875rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/navsbg.png) no-repeat -1.25rem top;
+    float: left;
+}
+.floor_3 .cont .floor_th{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_th .img a{
+	float: none;
+}
+.floor_th .img img{
+	margin: 0 auto;
+}
+.floor_th .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_th .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_3 .cont .floor_f{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_f .img a{
+	float: none;
+}
+.floor_f .img img{
+	margin: 0 auto;
+}
+.floor_f .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_f .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_3 .cont .floor_5{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_5 .img a{
+	float: none;
+}
+.floor_5 .img img{
+	margin: 0 auto;
+}
+.floor_5 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_5 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_3 .cont .floor_6{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_6 .img a{
+	float: none;
+}
+.floor_6 .img img{
+	margin: 0 auto;
+}
+.floor_6 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_6 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_3 .cont .floor_7{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_7 .img a{
+	float: none;
+}
+.floor_7 .img img{
+	margin: 0 auto;
+}
+.floor_7 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_7 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.brandlogo{
+    width: 59.6875rem;
+    padding: 0.375rem 0 0.375rem 0.1875rem;
+    overflow: hidden;
+    border: 1px solid #dadada;
+    border-top: none;
+}
+.brandlogo ul{
+	width: 75rem;
+}
+.brandlogo ul li{
+    width: 7.4375rem;
+    height: 2.5rem;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+.brandlogo ul li a{
+    display: block;
+    width: 6.25rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.floor .mainF .floor_4{
+    height: 511px;
+	width: 60rem;
+	overflow: hidden;
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+.floor_4 .cont{
+	width: 58.625rem;
+    height: 25.5625rem;
+    overflow: hidden;
+    padding: 0 0.625rem 0 0.625rem;
+    border: 0.0625rem solid #dadada;
+    border-top: none;
+    border-bottom: 0.0625rem solid #e9e9e9;    
+}
+.floor_4 .cont .floor_o{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_o .img a{
+	float: none;
+}
+.floor_o .img img{
+	margin: 0 auto;
+}
+.floor_o .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_o .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_t{
+    width: 30rem;
+    height: 205px;
+    margin-left: 0;
+    float: left;
+}
+.floor_t .ad{
+	position: absolute;
+    top: 0;
+    width: 1250rem;
+}
+.floor_t .ad li{
+    width: 30rem;
+    height: 12.8125rem;
+    overflow: hidden;
+    float: left;
+}
+.floor_t .ad li a{
+	float: left;
+}
+.floor_t .nav{
+    position: absolute;
+    right: 0.3125rem;
+    bottom: 0.375rem;
+}
+.floor_t .nav .current{
+	text-decoration: none;
+    background-position: left top;
+}
+.floor_t .nav a{
+	display: inline-block;
+    width: 1.125rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 0.875rem;
+    color: #fff;
+    margin-left: 0.1875rem;
+    font-size: 0.6875rem;
+    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/navsbg.png) no-repeat -1.25rem top;
+    float: left;
+}
+.floor_4 .cont .floor_th{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_th .img a{
+	float: none;
+}
+.floor_th .img img{
+	margin: 0 auto;
+}
+.floor_th .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_th .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_4 .cont .floor_f{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_f .img a{
+	float: none;
+}
+.floor_f .img img{
+	margin: 0 auto;
+}
+.floor_f.title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_f .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_4 .cont .floor_5{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_5 .img a{
+	float: none;
+}
+.floor_5 .img img{
+	margin: 0 auto;
+}
+.floor_5 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_5 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_4 .cont .floor_6{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_6 .img a{
+	float: none;
+}
+.floor_6 .img img{
+	margin: 0 auto;
+}
+.floor_6 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_6 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.floor_4 .cont .floor_7{
+	height: 11.1875rem;
+    padding: 1.5625rem 0.75rem 0.0625rem 1.1875rem;
+    width: 11.9375rem;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.floor_7 .img a{
+	float: none;
+}
+.floor_7 .img img{
+	margin: 0 auto;
+}
+.floor_7 .title{
+    height: 2.1875rem;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0.25rem 0;
+}
+.floor_7 .priceline .price{
+    color: #f60;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.brandlogo{
+    width: 59.6875rem;
+    padding: 0.375rem 0 0.375rem 0.1875rem;
+    overflow: hidden;
+    border: 1px solid #dadada;
+    border-top: none;
+}
+.brandlogo ul{
+	width: 75rem;
+}
+.brandlogo ul li{
+    width: 7.4375rem;
+    height: 2.5rem;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+.brandlogo ul li a{
+    display: block;
+    width: 6.25rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.stairs{
+	width: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    z-index: 1;
+    background: #FFF;
+}
+.stairs li{
+	height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: #000;
+    cursor: pointer;
+    border-bottom: 1px solid #f60;
+}
+.stairs a{
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: #000;
+    cursor: pointer;
+    border-bottom: 1px solid #f60;
+}
+#ad{
+    height: 330px;
+}
+#ad .te{
+    height: 66px;
+    float: left;
+    margin-left: 32px;
+    margin-bottom: 50px;
+}
+#ad .te li{
+    float: left;
+    margin-right: 13px;
+    width: 385px;
+    padding: 2px;
+    border: 1px solid #ddd;
+}
+#ad .te li a{
+    width: 385px;
+}
+#ad .te li a img{
+    width: 100%; 
+}
+#ad .service{
+    height: 185px;
+    padding-left: 1.5%;
+}
+.service dl{
+    float: left;
+    border-right: 1px solid #dbdbdb;
+    width: 17.64%;
+    margin-left: 1.5%;
+    height: 185px;
+}
+.service dl dt{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 28px;
+    line-height: 20px;
+    color: #484848;
+}
+.service dl dd{
+    padding: 10px 0 0 16px;
+}
+.service dl dd li{
+    line-height: 22px;
+    height: 22px;
+    list-style-type: disc;
+}
+.service dl dd li a{
+    padding-left: 12px;
+    display: inline-block;
+}
+.service .wu{
+    border: none;
+}
+footer{
+    background: #f1f1f1;
+    line-height: 24px;
+}
+footer .footer{
+    padding: 20px 0px 20px;
+    width: 965px;
+    text-align: center;
+    margin: 0 auto;
+}
